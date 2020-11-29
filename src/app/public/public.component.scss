@@ -1,0 +1,30 @@
+
+.all_blogs{
+    margin: 10px auto;
+    max-width: 1200px;
+    height: auto;
+    border: 10px solid rgb(110, 255, 200);
+    display: grid;
+}
+
+.grid-item {
+    display: block;
+    border: 2px solid red;
+    min-width: 300px;
+    max-width: 900px;
+    margin: 30px auto;
+    height: 250px;
+    background-image: url("https://www.iwebwriting.com/files/u6A3JR1Qk2I0MNeoD.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-blend-mode: luminosity;
+
+//     display: flex;
+//   flex-wrap: wrap;
+  float: left;
+}
+
+// @media screen and (min-width: 400px) {
+
+// }

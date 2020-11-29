@@ -1,14 +1,21 @@
+<!-- <div [froalaEditor]>Type your contents here...</div> -->
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <!-- editor -->
+  <div id="sample2" [froalaEditor] [(froalaModel)]="content" formControlName="formModel"></div>
+
+  <!-- controls -->
+  <button type="submit">Save</button> 
+
+</form>
+<button (click)="publish()">Publish</button>
+<button (click)="setValue()">Set value</button>
+
+<!-- contents preview -->
+<!-- <h4>Rendered Content:</h4>
+<div [froalaView]="content"></div> -->
 
 
-<div [froalaEditor]>Hello, Froala!</div>
-
-
-
-<!-- <div class="sample">
-  <div id="sample2" [froalaEditor] [(froalaModel)]="content" ></div>
-  <h4>Rendered Content:</h4>
-  <div [froalaView]="content"></div>
-</div> -->
 
 <!-- <div class="sample">
 
@@ -27,4 +34,4 @@
   <button (click)="setValue()">Set preset value</button>
 </div> -->
 
-<!-- <froala-component></froala-component> -->
+
